@@ -1,7 +1,7 @@
 :root
 {
 	/* Variables para los colores*/
-	--bitcoin-orange:#F7931A;
+/*	--bitcoin-orange:#F7931A;
 	--soft-orange:#FFE9D5;
 	--secondary-blue:#1A9AF7; 
 	--soft-blue:#E7F5FF;
@@ -15,7 +15,7 @@
 	--aputazised-purple:#CF04D6;
 	--alpha-male-blue:#171BD4;
 	--sexually-ambiguous-green:#76F8C9;
-	--notsobad-manlybrown:#633108;
+	--notsobad-manlybrown:#633108;*/
 }
 
 
@@ -35,3 +35,28 @@ html
 	font-size: 62.5%;
 }
 
+
+header.container
+{
+	width: 100%;
+	margin: 0 auto;
+	padding-right: 0;
+	padding-left: 0;
+}
+
+header img
+{
+	width: 100%;
+	height: auto;
+}
+
+header span.logo
+{
+	background: url('../assets/logo.png');
+	/*background-position: center;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
